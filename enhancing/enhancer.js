@@ -28,8 +28,6 @@ function fail(item) {
     return { ...item, enhancement: item.enhancement - 10 };
   } else if (item.enhancement < 16) {
     return { ...item, enhancement: item.enhancement - 1 };
-  } else {
-    return { ...item };
   }
 }
 
